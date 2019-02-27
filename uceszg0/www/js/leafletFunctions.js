@@ -18,3 +18,5 @@ var myPolygon = L.polygon([
 fillColor: '#f03',
 fillOpacity: 0.5}).addTo(mymap).bindPopup("I am a polygon.");
 }
+
+
