@@ -99,6 +99,7 @@ crossorigin=""></script>
             <li class="mdl-menu__item" onclick="addUCLLogo ()">Contact</li>
             <li class="mdl-menu__item" onclick="menuClicked()">Legal information</li>
             <li class="mdl-menu__item" onclick="addPointLinePoly()">addPointLinePoly</li>
+            <li class="mdl-menu__item" onclick="getEarthquakes()">getEarthquakes</li>
           </ul>
         </div>
       </header>
@@ -126,7 +127,7 @@ crossorigin=""></script>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">inbox</i>Inbox</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">delete</i>Trash</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">report</i>Spam</a>
+          <a class="mdl-navigation__link" href=""onclick='getEarthquakes();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">report</i>Get Earthquakes</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">forum</i>Forums</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">flag</i>Updates</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">local_offer</i>Promos</a>
@@ -149,5 +150,6 @@ crossorigin=""></script>
     <script src="js/rhMenu.js"></script>
     <script src=”js/leaflet.js”></script>
     <script src=”js/leafletFunctions.js”></script>
+    <script src=”js/leafletFunctions-separate.js”></script>
   </body>
 </html>
