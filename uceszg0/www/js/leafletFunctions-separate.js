@@ -12,7 +12,7 @@ function loadEarthquakeData() {
 // keep the alert message so that we know something is happening
 alert("Loading Earthquakes");
 getEarthquakes();
-
+}
 // create the code to wait for the response from the data server, and process the response once it is received
 function earthquakeResponse() {
 // this function listens out for the server to say that the data is ready - i.e. has state 4
