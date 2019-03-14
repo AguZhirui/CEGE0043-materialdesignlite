@@ -29,7 +29,8 @@ var lat = 51.524616;
 var lng = -0.13818;
 // return the distance in kilometers
 var distance = calculateDistance(position.coords.latitude, position.coords.longitude, lat,lng, 'K');
-
+//pop up an alert message when distance to UCL is within 0.1 km
+if (distance < 0.1) {alert('You are close to UCL');
 }
 // code adapted from https://www.htmlgoodies.com/beyond/javascript/calculate-the-distance-between-two-points-inyour-web-apps.html
 function calculateDistance(lat1, lon1, lat2, lon2, unit) {
