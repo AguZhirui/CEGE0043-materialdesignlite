@@ -1,4 +1,6 @@
 var client;
+// Create a global variable called earthquakes
+var earthquakes
 // Create function 
 function addPointLinePoly() {
 // add a point
