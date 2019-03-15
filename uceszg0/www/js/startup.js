@@ -10,7 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
 trackAndCircle ();
 getPort()
 }, false);
+document.addEventListener('DOMContentLoaded',function(){
+loadW3HTML();
 }
 
 function loadW3HTML() {
 w3.includeHTML();
+}
